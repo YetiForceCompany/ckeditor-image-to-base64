@@ -1,4 +1,4 @@
-Ckeditor image to base64 plugin for CKEditor 4
+ckeditor image to base64 plugin for CKEditor 4
 =================================
 
 Created by YetiForceCompany
