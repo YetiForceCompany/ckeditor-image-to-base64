@@ -14,7 +14,7 @@ The Browser must support the JavaScript File API.
     CKEditor installation.
 
 3.  Enable the plugin by using the extraPlugins configuration setting.
-    Example: CKEDITOR.config.extraPlugins = "CKEditor-Image-to-base64";
+    Example: CKEDITOR.config.extraPlugins = "ckeditor-image-to-base64";
 
 ## License
 
