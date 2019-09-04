@@ -13,7 +13,7 @@ The Browser must support the JavaScript File API.
 
 npm i ckeditor-image-to-base
 
-1.  Download the plugin from https://github.com/YetiForceCompany/CKEditor-Image-to-base64
+1.  Download the plugin from https://github.com/YetiForceCompany/ckeditor-image-to-base64/archive/master.zip
 
 2.  Extract (decompress) the downloaded file into the plugins folder of your
     CKEditor installation.
