@@ -52,20 +52,20 @@ function readImageAsBase64(item, editor) {
   reader.readAsDataURL(file);
 }
 
-CKEDITOR.plugins.add('CKEditor-Image-to-base64', {
+CKEDITOR.plugins.add('ckeditor-image-to-base64', {
   requires: 'dialog',
-  icons: 'CKEditor-Image-to-base64',
+  icons: 'ckeditor-image-to-base64',
   hidpi: true,
   init: function(editorInstance) {
     initPasteEvent(editorInstance);
-    var pluginName = 'CKEditor-Image-to-base64-dialog';
-    editorInstance.ui.addToolbarGroup('CKEditor-Image-to-base64', 'insert');
-    editorInstance.ui.addButton('CKEditor-Image-to-base64', {
+    var pluginName = 'ckeditor-image-to-base64-dialog';
+    editorInstance.ui.addToolbarGroup('ckeditor-image-to-base64', 'insert');
+    editorInstance.ui.addButton('ckeditor-image-to-base64', {
       label: editorInstance.lang.common.image,
       command: pluginName,
       toolbar: 'insert'
     });
-    CKEDITOR.dialog.add(pluginName, this.path + 'dialogs/CKEditor-Image-to-base64.js');
+    CKEDITOR.dialog.add(pluginName, this.path + 'dialogs/ckeditor-image-to-base64.js');
     editorInstance.addCommand(
       pluginName,
       new CKEDITOR.dialogCommand(pluginName, {
@@ -88,7 +88,7 @@ CKEDITOR.plugins.add('CKEditor-Image-to-base64', {
       editorInstance.addMenuGroup('imageToBase64Group');
       editorInstance.addMenuItem('imageToBase64Item', {
         label: editorInstance.lang.common.image,
-        icon: this.path + 'icons/CKEditor-Image-to-base64.png',
+        icon: this.path + 'icons/ckeditor-image-to-base64.png',
         command: pluginName,
         group: 'imageToBase64Group'
       });
