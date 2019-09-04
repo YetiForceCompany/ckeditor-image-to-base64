@@ -1,6 +1,6 @@
 # YetiForce Ckeditor image to base64 plugin for CKEditor 4
 
-Created by YetiForceCompany
+Created by YetiForce Sp. z o.o. https://yetiforce.com
 
 ## Requirements
 
