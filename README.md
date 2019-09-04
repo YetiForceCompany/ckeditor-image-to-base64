@@ -1,4 +1,4 @@
-# Ckeditor image to base64 plugin for CKEditor 4
+# YetiForce Ckeditor image to base64 plugin for CKEditor 4
 
 Created by YetiForceCompany
 
@@ -8,7 +8,7 @@ The Browser must support the JavaScript File API.
 
 ## Installation
 
-1.  Download the plugin from https://github.com/YetiForceCompany/ckeditor-image-to-base64
+1.  Download the plugin from https://github.com/YetiForceCompany/yetiforce-ckeditor-image-to-base64
 
 2.  Extract (decompress) the downloaded file into the plugins folder of your
     CKEditor installation.
