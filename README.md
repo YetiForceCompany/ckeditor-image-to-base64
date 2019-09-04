@@ -1,5 +1,7 @@
 # YetiForce Ckeditor image to base64 plugin for CKEditor 4
 
+[![npm package](https://img.shields.io/npm/v/ckeditor-image-to-base/latest.svg)](https://www.npmjs.com/package/ckeditor-image-to-base)
+
 Created by YetiForce Sp. z o.o. https://yetiforce.com
 
 ## Requirements
